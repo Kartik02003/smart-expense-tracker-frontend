@@ -5,7 +5,7 @@ import { Plus, Pause, Play, Trash2, Pencil } from "lucide-react";
 import toast from "react-hot-toast";
 import AddRecurringModal from "../../components/recurring/AddRecurringModal";
 
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const getNextRunDate = (rule) => {
     if (rule.status !== "active") return "Paused";

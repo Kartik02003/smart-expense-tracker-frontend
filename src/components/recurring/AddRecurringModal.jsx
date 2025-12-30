@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 import { X } from "lucide-react";
 import { useSelector } from "react-redux";
 
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const AddRecurringModal = ({ isOpen, onClose, onSuccess, editRule }) => {
     const { token } = useSelector((state) => state.auth);
