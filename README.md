@@ -5,7 +5,10 @@ Built with the **MERN Stack** and deployed using modern cloud platforms.
 
 ---
 
+## 🚀 Live Demo
+Link : https://smart-expense-tracker-frontend-roan.vercel.app/
 
+---
 ## 🧠 Key Features
 
 ### 🔐 Authentication & Security
